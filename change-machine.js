@@ -13,5 +13,5 @@ console.log(dimes + " dimes");
 let nickles = Math.floor((cents % 10)/5);
 console.log(nickles + " nickles");
 
-let pennies = Math.floor((cents % 10)/1);
+let pennies = Math.floor((cents % 5)/1);
 console.log(pennies + " pennies");
