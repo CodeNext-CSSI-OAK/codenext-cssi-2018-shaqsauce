@@ -1,11 +1,10 @@
 // Author: Nalani Gomez-Curiel
-let readline = require('readline-sync');
+//let readline = require('readline-sync');
 
-let ageAsAString = readline.question('What is your age?');
+//let ageAsAString = readline.question('What is your age?');
+//let age = Number(ageAsAString);
 
-let age = Number(ageAsAString);
-
-console.log('In 2028 you will be ' + (age +10) + ' years old.');
+//console.log('In 2028 you will be ' + (age +10) + ' years old.');
 
 // console.log("Hello World!");
 // console.log("It's a beautiful day for programming, isn't it?");
