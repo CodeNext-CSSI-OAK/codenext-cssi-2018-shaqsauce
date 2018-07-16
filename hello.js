@@ -1,14 +1,26 @@
-// Author: Nalani Gomez-Curiel
-//let readline = require('readline-sync');
+// let readline = require("readline-sync");
+//
+// function doTheThing() {
+//   let theThing = readline.question("What do you want me to do?: ");
+//   if (theThing === "eat") {
+//     console.log("Computers can't eat!");
+//   } else {
+//     console.log("I'm sorry, I don't understand you!");
+//   }
+// }
+//
+// doTheThing();
+function subtract(num1, num2) {
+  return num1 - num2;
+}
 
-//let ageAsAString = readline.question('What is your age?');
-//let age = Number(ageAsAString);
+//let result = subtract(6,4);
+sole.log('The result is: ' + subtract(6, subtract (100, 99));
 
-//console.log('In 2028 you will be ' + (age +10) + ' years old.');
-
-// console.log("Hello World!");
-// console.log("It's a beautiful day for programming, isn't it?");
-// console.log("Hey! What's 1 + 1?");
-// console.log("It's " + 1 + 1 + " of course!");
-// console.log("No, it's " + (1 + 1) + ", silly goose!");
-// console.log("This isn't going to get printed, is it?");
+function absoluteDifference(num1, num2) {
+  if(num2>num1) {
+  }
+  return num1 - num2;
+  }
+  console.log(absoluteDifference(6,4));
+  console.log(absoluteDifference(4,6));

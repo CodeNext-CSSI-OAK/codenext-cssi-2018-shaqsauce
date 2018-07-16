@@ -1,5 +1,4 @@
-//Author: FirstName LastName
-
+//Author: Nalani Gomez-Curiel
 /******************************************************************************
                                    withoutEnd()
 
@@ -15,8 +14,9 @@ withoutEnd("coding") → "odin"
 *******************************************************************************/
 
 function withoutEnd(str) {
-
-}
+  return str.substring(1, str.length -1);
+  }
+console.log("hello");
 
 // Test this function.
 testWithoutEnd();
@@ -37,7 +37,8 @@ frontAgain("ed") → true
 
 
 function frontAgain(str) {
-
+  if (str.substring(0-2) === str.length - 2)
+    return true;
 }
 
 // Test this function.
