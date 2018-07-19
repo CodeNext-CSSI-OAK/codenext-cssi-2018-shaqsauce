@@ -1,4 +1,4 @@
-//Author: FirstName LastName
+//Author: Nalani Gomez-Curiel
 
 /******************************************************************************
                                    stringTimes()
@@ -14,7 +14,11 @@ stringTimes("Hi", 1) → "Hi"
 *******************************************************************************/
 
 function stringTimes(str, n) {
-
+let returnString = "";
+for(let i = 0; i <n; i++) {
+  returnString +=str;
+}
+return returnString;
 }
 
 // Test this function.
@@ -34,8 +38,20 @@ countXX("xxxx") → 3
 *******************************************************************************/
 
 function countXX(str) {
+    let countX = 0;
+    for(i = 0; i < str.length; i++) {
+      if (str.substring(i, i + 2) ==="xx") {
+        countX++;
 
-}
+      }
+    }
+  return countX;
+  }
+
+  console.log(countXX("abcxx"));
+  console.log(countXX("xxx"));
+  console.log(countXX("xxxx"));
+
 
 // Test this function.
 testCountXX();
@@ -54,7 +70,12 @@ bobThere("bac") → false
 *******************************************************************************/
 
 function bobThere(str) {
-
+for (let i = 0; i < str.length; i ++) {
+  if(str.charAt(i) === "b" && str.charAt(i + 2) === "b") {
+    return true;
+  }
+}
+ return false;
 }
 
 // Test this function.
@@ -74,7 +95,14 @@ countCode("cozexxcope") → 2
 *******************************************************************************/
 
 function countCode(str) {
+  let code = 0;
+  for (let i = 0; i < str.length; i++) {
+    if (str.substring(i, i + 2) === "co" && str.charAt(i + 3) === "e"){
+    code ++;
+  }
 
+  }
+return code;
 }
 
 // Test this function.
